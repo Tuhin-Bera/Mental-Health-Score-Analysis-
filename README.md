@@ -162,6 +162,8 @@ There is currently no automated test suite in the repository. After starting the
 
 ## Deploy to Render
 
+Live application: <https://mental-health-score-analysis.onrender.com/>
+
 Deploy this as a **Web Service**, not as a static site: the frontend depends on the FastAPI prediction endpoint, and both are served by one process.
 
 1. Push the project to a Git repository accessible to Render. Confirm `Mental_Health_Model.pkl` is committed.
