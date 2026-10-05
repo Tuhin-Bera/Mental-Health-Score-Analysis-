@@ -171,7 +171,7 @@ Deploy this as a **Web Service**, not as a static site: the frontend depends on 
 5. Set the build command to:
 
 	```bash
-	python -m pip install .
+  uv sync --frozen
 	```
 
 6. Set the start command to:
